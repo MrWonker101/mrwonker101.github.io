@@ -1,3 +1,22 @@
-.box {
-  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.info-box {
+	border: 5px solid black;
+	border-radius: 5px;
+	margin: 0px;
+	padding: 5px;
+}
+
+.info-box > *{
+	padding: 0px;
+	margin: 0px;
+}
+
+.info-box > h1 , .info-box > p{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
