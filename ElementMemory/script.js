@@ -73,7 +73,8 @@ function start() {
   let startProperty = document.getElementById("Start").value
   let returnProperties = [document.getElementById("number").checked,document.getElementById("name").checked,document.getElementById("symbol").checked,document.getElementById("position").checked,document.getElementById("type").checked]
   console.log(min, max)
-  
+
+  newArray = []
   for (let i = min-1; i <= max-1; i++) {
     let temp = elements[i]
     let Front;
