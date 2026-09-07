@@ -96,7 +96,7 @@ function start() {
     }
     let Back = ""
     if (returnProperties[1]) {
-      Back += `<p>{elements[i]["Name"]}</p>`
+      Back += `<p>${elements[i]["Name"]}</p>`
     }
     if (returnProperties[0]) {
       Back += `<p>Atomic number: ${i}</p>`
