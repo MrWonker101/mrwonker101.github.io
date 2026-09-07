@@ -53,6 +53,7 @@ function step(){
     index = -1
     newArray = []
     document.getElementById("card").innerHTML = "<h1>Press start to start</h1>"
+    return undefined
   }
   element = Math.floor(index/2)
   document.getElementById("card").innerHTML = newArray[element][index % 2]
