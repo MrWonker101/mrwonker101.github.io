@@ -80,7 +80,7 @@ function start() {
     let Front;
     switch(startProperty) {
       case "number":
-        Front = `<h1>Atomic number: ${i}</h1>`
+        Front = `<h1>Atomic number: ${i+1}</h1>`
         break
       case "name":
         Front = `<h1>${elements[i]["Name"]}</h1>`
@@ -100,7 +100,7 @@ function start() {
       Back += `<p>${elements[i]["Name"]}</p>`
     }
     if (returnProperties[0]) {
-      Back += `<p>Atomic number: ${i}</p>`
+      Back += `<p>Atomic number: ${i+1}</p>`
     }
     if (returnProperties[2]) {
       Back += `<p>Atomic symbol: ${elements[i]["Symbol"]}</p>`
