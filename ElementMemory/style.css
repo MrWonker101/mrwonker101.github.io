@@ -1,0 +1,16 @@
+.box {
+	border: 5px solid black;
+	border-radius: 5px;
+	margin: 0px;
+	padding: 5px;
+}
+
+.box > *{
+	padding: 0px;
+	margin: 0px;
+}
+
+#card {
+  width: 480px;
+  height: 360px;
+}

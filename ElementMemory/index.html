@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Memorize the elements</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+      <h1>Both the first 36 elements and symbols AND the first 10 polyatomic Ions will be quized durring the first full week of school</h1>
+      <label for="min">Minimum atomic number: </label><input type="text", id="min", placeholder="min">
+      <br>
+      <label for="max">Maximum atomic number:</label><input type="text", id="max", placeholder="max">
+      <br>
+      <br>
+      <label for="Start">Property on front:</label>
+      <select id="Start", size="1">
+        <option value="name">Element Name</option>
+        <option value="number">Atomic Number</option>
+        <option value="symbol">Element Symbol</option>
+        <option value="position">Position in the periodic table</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>Properties on back</p> 
+      <input type="checkbox", id="number"><label for="number">Atomic number</label><br>
+      <input type="checkbox", id="name"><label for="name">Element name</label><br>
+      <input type="checkbox", id="symbol"><label for="symbol">Atomic symbol</label><br>
+      <input type="checkbox", id="position"><label for="position">Position on the periodic table</label><br>
+      <input type="checkbox", id="type"><label for="type">Metal, metaloid, or nonmetal</label>
+      <br>
+      <br>
+      <input type="checkbox", id="shuffle"><label for="shuffle">Shuffle cards</label>
+      <br>
+      <br>
+      <div class="box", id = "card", tabindex="0", role="button">
+        <h1>Press start to start</h1>
+      </div>
+
+      <button id = "startcards">start</button>
+      <script src="script.js"></script>
+  </body>
+
+</html>
