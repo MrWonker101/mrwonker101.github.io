@@ -50,7 +50,9 @@ let index = -1
 function step(){
   index +=1
   if (index > (newArray.length * 2) - 1) {
-    let index = 0
+    index = -1
+    newArray = []
+    document.getElementById("card").innerHTML = "<h1>Press start to start</h1>"
   }
   element = Math.floor(index/2)
   document.getElementById("card").innerHTML = newArray[element][index % 2]
