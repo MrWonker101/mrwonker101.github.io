@@ -37,7 +37,7 @@ const elements = [
   {Name:"Gallium", Symbol:"Ga", Group:"13", Period:"4", Type:"Metal"},
   {Name:"Germanium", Symbol:"Ge", Group:"14", Period:"4", Type:"Metaloid"},
   {Name:"Arsenic", Symbol:"As", Group:"15", Period:"4", Type:"Metaloid"},
-  {Name:"Selenium", Symbol:"se", Group:"16", Period:"4", Type:"Non Metal"},
+  {Name:"Selenium", Symbol:"Se", Group:"16", Period:"4", Type:"Non Metal"},
   {Name:"Bromine", Symbol:"Br", Group:"17", Period:"4", Type:"Non Metal"},
   {Name:"Krypton", Symbol:"Kr", Group:"18", Period:"4", Type:"Non Metal"}
 ]
